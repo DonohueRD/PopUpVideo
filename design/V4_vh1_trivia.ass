@@ -1,0 +1,25 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1920
+PlayResY: 1080
+WrapStyle: 2
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: D,Archivo Black,40,&H00FFFFFF,&H00FFFFFF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,0,0,7,0,0,0,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 20,0:00:00.00,0:00:10.00,D,,0,0,0,,{\an7\pos(60,44)\fnBungee\fs77\1c&HFFFFFF&\bord4\3c&H00331606&\shad3\4c&H000000&\4a&H60&}PAUL WALL
+Dialogue: 20,0:00:00.00,0:00:10.00,D,,0,0,0,,{\an7\pos(62,88)\fnArchivo Black\fs32\1c&H00FFD6A9&\bord3\3c&H00331606&\shad0}Sittin' Sidewayz ft. Big Pokey
+Dialogue: 0,0:00:00.00,0:00:10.00,D,,0,0,0,,{\an7\pos(8,8)\p1\bord7\shad0\1c&H00000000&\3c&H00000000&\1a&H88&\3a&H88&}m 1316 150 l 1824 150 b 1838 150 1850 162 1850 176 l 1850 250 b 1850 265 1838 276 1824 276 l 1316 276 b 1302 276 1290 265 1290 250 l 1290 176 b 1290 162 1302 150 1316 150
+Dialogue: 1,0:00:00.00,0:00:10.00,D,,0,0,0,,{\an7\pos(0,0)\p1\bord7\shad0\1c&H00D85B1E&\3c&H00D85B1E&}m 1316 150 l 1824 150 b 1838 150 1850 162 1850 176 l 1850 250 b 1850 265 1838 276 1824 276 l 1316 276 b 1302 276 1290 265 1290 250 l 1290 176 b 1290 162 1302 150 1316 150
+Dialogue: 2,0:00:00.00,0:00:10.00,D,,0,0,0,,{\an7\pos(0,0)\p1\bord0\shad0\1c&H00FFFFFF&}m 1316 150 l 1824 150 b 1838 150 1850 162 1850 176 l 1850 250 b 1850 265 1838 276 1824 276 l 1316 276 b 1302 276 1290 265 1290 250 l 1290 176 b 1290 162 1302 150 1316 150
+Dialogue: 4,0:00:00.00,0:00:10.00,D,,0,0,0,,{\an7\pos(0,0)\p1\bord6\shad0\1c&H00D85B1E&\3c&H00D85B1E&}m 1290 148 b 1323 148 1350 175 1350 208 b 1350 241 1323 268 1290 268 b 1257 268 1230 241 1230 208 b 1230 175 1257 148 1290 148
+Dialogue: 5,0:00:00.00,0:00:10.00,D,,0,0,0,,{\an7\pos(0,0)\p1\bord0\shad0\1c&H008C3DE2&}m 1290 148 b 1323 148 1350 175 1350 208 b 1350 241 1323 268 1290 268 b 1257 268 1230 241 1230 208 b 1230 175 1257 148 1290 148
+Dialogue: 4,0:00:00.00,0:00:10.00,D,,0,0,0,,{\an7\pos(0,0)\p1\bord3\shad0\1c&H00D85B1E&\3c&H00D85B1E&}m 1229 186 l 1200 196 l 1204 185 l 1187 179 l 1193 164 l 1209 170 l 1214 159
+Dialogue: 5,0:00:00.00,0:00:10.00,D,,0,0,0,,{\an7\pos(0,0)\p1\bord0\shad0\1c&H001E93F7&}m 1229 186 l 1200 196 l 1204 185 l 1187 179 l 1193 164 l 1209 170 l 1214 159
+Dialogue: 8,0:00:00.00,0:00:10.00,D,,0,0,0,,{\an5\pos(1290,212)\fnLuckiest Guy\fs84\1c&HFFFFFF&\bord3\3c&H00330E5A&\shad0}?
+Dialogue: 9,0:00:00.00,0:00:10.00,D,,0,0,0,,{\an4\q2\pos(1378,195)\fnArchivo Black\fs41.8\1c&H111111&\bord0\shad0}Swangas are wire rims
+Dialogue: 9,0:00:00.00,0:00:10.00,D,,0,0,0,,{\an4\q2\pos(1378,232)\fnArchivo Black\fs41.8\1c&H111111&\bord0\shad0}that poke out like elbows.

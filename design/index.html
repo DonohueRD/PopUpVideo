@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Huey Pop Up Video Looks</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bungee&family=Archivo:wght@400;600;800&display=swap">
+<style>
+/* Layout: single column "monitor wall" of framed 16:9 stills with slate labels. Deliberately dark-only, like a control room. */
+:root {
+  --bg: #0b1020;
+  --panel: #141b30;
+  --line: #26304d;
+  --fg: #eef3ff;
+  --muted: #9fabc8;
+  --blue: #1e5bd8;
+  --sky: #4fa3ff;
+  --orange: #f7931e;
+  --display: "Bungee", "Arial Black", Impact, sans-serif;
+  --body: "Archivo", "Helvetica Neue", Arial, sans-serif;
+  color-scheme: dark;
+}
+body { margin: 0; background: var(--bg); color: var(--fg); font-family: var(--body); font-size: 16px; line-height: 1.5; }
+.wrap { max-width: 1120px; margin: 0 auto; padding: 40px 16px 72px; display: grid; gap: 56px; }
+header { display: grid; gap: 12px; }
+.kicker { font-family: var(--display); font-size: 16px; letter-spacing: .04em; }
+.kicker b { color: var(--sky); font-weight: 400; }
+h1 { font-family: var(--display); font-weight: 400; font-size: clamp(32px, 6vw, 54px); line-height: 1.05; margin: 0; text-wrap: balance; }
+.lede { color: var(--muted); max-width: 64ch; margin: 0; }
+section { display: grid; gap: 20px; }
+h2 { font-family: var(--display); font-weight: 400; font-size: 24px; margin: 0; }
+h2 small { font-family: var(--body); font-size: 14px; color: var(--muted); margin-left: 10px; }
+.grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 28px; }
+@media (max-width: 760px) { .grid { grid-template-columns: 1fr; } h2 small { display: block; margin: 4px 0 0; } }
+figure { margin: 0; display: grid; gap: 12px; min-width: 0; align-content: start; }
+figure img { display: block; width: 100%; aspect-ratio: 16 / 9; object-fit: cover; border-radius: 6px; border: 1px solid var(--line); background: #000; }
+figure img.ref { aspect-ratio: auto; max-height: 420px; width: auto; max-width: 100%; justify-self: start; }
+figcaption { display: grid; grid-template-columns: auto 1fr; gap: 4px 14px; align-items: baseline; }
+.tag { font-family: var(--display); font-size: 20px; line-height: 1; color: #fff; background: var(--blue); border-radius: 6px; padding: 7px 10px 5px; grid-row: span 2; align-self: start; }
+.tag.ref { background: var(--orange); color: #1a0f00; }
+.name { font-weight: 800; font-size: 17px; }
+.desc { color: var(--muted); font-size: 14px; grid-column: 2; }
+table { border-collapse: collapse; width: 100%; font-size: 15px; }
+td { padding: 8px 12px 8px 0; border-bottom: 1px solid var(--line); vertical-align: top; }
+td:first-child { font-weight: 800; white-space: nowrap; }
+td:last-child { color: var(--muted); }
+.note { background: var(--panel); border: 1px solid var(--line); border-radius: 8px; padding: 18px 20px; display: grid; gap: 8px; }
+.note p { margin: 0; color: var(--muted); }
+.note strong { color: var(--fg); }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <div class="kicker">HUEY <b>POP UP</b> VIDEO</div>
+    <h1>Round 2: the VH1 look</h1>
+    <p class="lede">These are based on the original show: a white box with a thick blue outline, a round icon badge on its left edge, and a small orange arrow pointing into the badge. The title card is the T2 lower third you picked, now recolored blue. Every still was rendered by the same subtitle engine the encoder uses, on frame 0:60 of the Paul Wall test.</p>
+  </header>
+
+  <section>
+    <h2>Opening title <small>first ~6 seconds, then fades to the corner tag</small></h2>
+    <div class="grid">
+      <figure>
+        <img src="T2_intro_lowerthird_blue.jpg" alt="Translucent navy lower-third bar with a sky-blue edge strip, artist name in Bungee and song title in light blue">
+        <figcaption><span class="tag">T2</span><span class="name">Lower third, blue</span><span class="desc">The pink is gone. The bar is now translucent navy, with a sky-blue edge strip and a light-blue song line.</span></figcaption>
+      </figure>
+      <figure>
+        <img class="ref" src="reference_original_popup.png" alt="Original VH1 Pop Up Video promo with four white bubbles, blue outlines and round icon badges">
+        <figcaption><span class="tag ref">REF</span><span class="name">Original VH1</span><span class="desc">The reference used for the bubbles below.</span></figcaption>
+      </figure>
+    </div>
+  </section>
+
+  <section>
+    <h2>VH1 bubbles <small>corner tag (top-left) is also blue now</small></h2>
+    <div class="grid">
+      <figure>
+        <img src="V1_vh1_TL_BR.jpg" alt="Two bubbles: star badge top left, bar-chart badge bottom right">
+        <figcaption><span class="tag">V1</span><span class="name">Artist + Chart</span><span class="desc">Red star badge for artist facts, green bars for chart facts.</span></figcaption>
+      </figure>
+      <figure>
+        <img src="V2_vh1_TR_BL.jpg" alt="Two bubbles: globe badge top right, film camera badge bottom left">
+        <figcaption><span class="tag">V2</span><span class="name">Cultural + Production</span><span class="desc">Globe for cultural impact, film camera on yellow for video production.</span></figcaption>
+      </figure>
+      <figure>
+        <img src="V3_vh1_BC.jpg" alt="One bubble at bottom center with an orange music-note badge">
+        <figcaption><span class="tag">V3</span><span class="name">Recording</span><span class="desc">Music notes on orange, like the "Glory Days" bubble in the reference.</span></figcaption>
+      </figure>
+      <figure>
+        <img src="V4_vh1_trivia.jpg" alt="One bubble top right with a pink question-mark badge">
+        <figcaption><span class="tag">V4</span><span class="name">Trivia</span><span class="desc">A big question mark on pink for general trivia.</span></figcaption>
+      </figure>
+    </div>
+  </section>
+
+  <section>
+    <h2>Icon per category</h2>
+    <table>
+      <tr><td>chart</td><td>Green ascending bars on white</td></tr>
+      <tr><td>recording</td><td>Beamed music notes on orange</td></tr>
+      <tr><td>artist</td><td>Gold star on red</td></tr>
+      <tr><td>production</td><td>Film camera on yellow</td></tr>
+      <tr><td>trivia</td><td>Question mark on pink</td></tr>
+      <tr><td>cultural</td><td>Globe on white</td></tr>
+    </table>
+  </section>
+
+  <div class="note">
+    <p><strong>To approve:</strong> reply in chat with "looks good," or name changes, like "bigger text," "swap the trivia icon," or "drop the shadow."</p>
+    <p>In the video, each bubble pops in with a quick scale-up and pops out the same way. Two bubbles never share a zone back to back.</p>
+  </div>
+</div>
+</body>
+</html>

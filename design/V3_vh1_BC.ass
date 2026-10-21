@@ -1,0 +1,25 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1920
+PlayResY: 1080
+WrapStyle: 2
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: D,Archivo Black,40,&H00FFFFFF,&H00FFFFFF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,0,0,7,0,0,0,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 20,0:00:00.00,0:00:10.00,D,,0,0,0,,{\an7\pos(60,44)\fnBungee\fs77\1c&HFFFFFF&\bord4\3c&H00331606&\shad3\4c&H000000&\4a&H60&}PAUL WALL
+Dialogue: 20,0:00:00.00,0:00:10.00,D,,0,0,0,,{\an7\pos(62,88)\fnArchivo Black\fs32\1c&H00FFD6A9&\bord3\3c&H00331606&\shad0}Sittin' Sidewayz ft. Big Pokey
+Dialogue: 0,0:00:00.00,0:00:10.00,D,,0,0,0,,{\an7\pos(8,8)\p1\bord7\shad0\1c&H00000000&\3c&H00000000&\1a&H88&\3a&H88&}m 760 864 l 1254 864 b 1268 864 1280 875 1280 890 l 1280 964 b 1280 978 1268 990 1254 990 l 760 990 b 746 990 734 978 734 964 l 734 890 b 734 875 746 864 760 864
+Dialogue: 1,0:00:00.00,0:00:10.00,D,,0,0,0,,{\an7\pos(0,0)\p1\bord7\shad0\1c&H00D85B1E&\3c&H00D85B1E&}m 760 864 l 1254 864 b 1268 864 1280 875 1280 890 l 1280 964 b 1280 978 1268 990 1254 990 l 760 990 b 746 990 734 978 734 964 l 734 890 b 734 875 746 864 760 864
+Dialogue: 2,0:00:00.00,0:00:10.00,D,,0,0,0,,{\an7\pos(0,0)\p1\bord0\shad0\1c&H00FFFFFF&}m 760 864 l 1254 864 b 1268 864 1280 875 1280 890 l 1280 964 b 1280 978 1268 990 1254 990 l 760 990 b 746 990 734 978 734 964 l 734 890 b 734 875 746 864 760 864
+Dialogue: 4,0:00:00.00,0:00:10.00,D,,0,0,0,,{\an7\pos(0,0)\p1\bord6\shad0\1c&H00D85B1E&\3c&H00D85B1E&}m 734 862 b 768 862 794 889 794 922 b 794 955 768 982 734 982 b 701 982 674 955 674 922 b 674 889 701 862 734 862
+Dialogue: 5,0:00:00.00,0:00:10.00,D,,0,0,0,,{\an7\pos(0,0)\p1\bord0\shad0\1c&H002E8AF2&}m 734 862 b 768 862 794 889 794 922 b 794 955 768 982 734 982 b 701 982 674 955 674 922 b 674 889 701 862 734 862
+Dialogue: 4,0:00:00.00,0:00:10.00,D,,0,0,0,,{\an7\pos(0,0)\p1\bord3\shad0\1c&H00D85B1E&\3c&H00D85B1E&}m 673 900 l 644 910 l 648 899 l 631 893 l 637 878 l 654 884 l 658 873
+Dialogue: 5,0:00:00.00,0:00:10.00,D,,0,0,0,,{\an7\pos(0,0)\p1\bord0\shad0\1c&H001E93F7&}m 673 900 l 644 910 l 648 899 l 631 893 l 637 878 l 654 884 l 658 873
+Dialogue: 6,0:00:00.00,0:00:10.00,D,,0,0,0,,{\an7\pos(0,0)\p1\bord0\shad0\1c&H0006224A&}m 720 932 b 726 932 731 935 731 940 b 731 944 726 948 720 948 b 714 948 709 944 709 940 b 709 935 714 932 720 932 m 751 925 b 757 925 761 929 761 933 b 761 938 757 941 751 941 b 745 941 740 938 740 933 b 740 929 745 925 751 925 m 727 902 l 732 902 l 732 940 l 727 940 m 758 895 l 763 895 l 763 933 l 758 933 m 727 902 l 763 894 l 763 903 l 727 911
+Dialogue: 9,0:00:00.00,0:00:10.00,D,,0,0,0,,{\an4\q2\pos(822,908)\fnArchivo Black\fs41.8\1c&H111111&\bord0\shad0}Paul Wall cut this track
+Dialogue: 9,0:00:00.00,0:00:10.00,D,,0,0,0,,{\an4\q2\pos(822,945)\fnArchivo Black\fs41.8\1c&H111111&\bord0\shad0}for his major-label debut.

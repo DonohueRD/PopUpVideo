@@ -1,0 +1,18 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1920
+PlayResY: 1080
+WrapStyle: 2
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: D,Archivo Black,40,&H00FFFFFF,&H00FFFFFF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,0,0,7,0,0,0,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 18,0:00:00.00,0:00:10.00,D,,0,0,0,,{\an7\pos(0,0)\p1\bord0\shad0\1c&H00331606&\1a&H30&}m 0 840 l 787 840 b 787 840 787 840 787 840 l 787 1020 b 787 1020 787 1020 787 1020 l 0 1020 b 0 1020 0 1020 0 1020 l 0 840 b 0 840 0 840 0 840
+Dialogue: 19,0:00:00.00,0:00:10.00,D,,0,0,0,,{\an7\pos(0,0)\p1\bord0\shad0\1c&H00FFA34F&}m 0 840 l 22 840 b 22 840 22 840 22 840 l 22 1020 b 22 1020 22 1020 22 1020 l 0 1020 b 0 1020 0 1020 0 1020 l 0 840 b 0 840 0 840 0 840
+Dialogue: 20,0:00:00.00,0:00:10.00,D,,0,0,0,,{\an4\pos(72,808)\fnBungee\fs67\1c&HFFFFFF&\bord0\shad2\4c&H000000&}HUEY {\1c&H00FFA34F&}POP UP {\1c&HFFFFFF&}VIDEO
+Dialogue: 20,0:00:00.00,0:00:10.00,D,,0,0,0,,{\an4\pos(70,900)\fnBungee\fs165\1c&HFFFFFF&\bord0\shad0}PAUL WALL
+Dialogue: 20,0:00:00.00,0:00:10.00,D,,0,0,0,,{\an4\pos(72,972)\fnArchivo Black\fs54\1c&H00FFD6A9&\bord0\shad0}Sittin' Sidewayz ft. Big Pokey

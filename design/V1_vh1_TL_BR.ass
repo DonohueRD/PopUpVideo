@@ -1,0 +1,39 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1920
+PlayResY: 1080
+WrapStyle: 2
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: D,Archivo Black,40,&H00FFFFFF,&H00FFFFFF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,0,0,7,0,0,0,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 20,0:00:00.00,0:00:10.00,D,,0,0,0,,{\an7\pos(60,44)\fnBungee\fs77\1c&HFFFFFF&\bord4\3c&H00331606&\shad3\4c&H000000&\4a&H60&}PAUL WALL
+Dialogue: 20,0:00:00.00,0:00:10.00,D,,0,0,0,,{\an7\pos(62,88)\fnArchivo Black\fs32\1c&H00FFD6A9&\bord3\3c&H00331606&\shad0}Sittin' Sidewayz ft. Big Pokey
+Dialogue: 0,0:00:00.00,0:00:10.00,D,,0,0,0,,{\an7\pos(8,8)\p1\bord7\shad0\1c&H00000000&\3c&H00000000&\1a&H88&\3a&H88&}m 190 150 l 662 150 b 677 150 688 162 688 176 l 688 250 b 688 265 677 276 662 276 l 190 276 b 176 276 164 265 164 250 l 164 176 b 164 162 176 150 190 150
+Dialogue: 1,0:00:00.00,0:00:10.00,D,,0,0,0,,{\an7\pos(0,0)\p1\bord7\shad0\1c&H00D85B1E&\3c&H00D85B1E&}m 190 150 l 662 150 b 677 150 688 162 688 176 l 688 250 b 688 265 677 276 662 276 l 190 276 b 176 276 164 265 164 250 l 164 176 b 164 162 176 150 190 150
+Dialogue: 2,0:00:00.00,0:00:10.00,D,,0,0,0,,{\an7\pos(0,0)\p1\bord0\shad0\1c&H00FFFFFF&}m 190 150 l 662 150 b 677 150 688 162 688 176 l 688 250 b 688 265 677 276 662 276 l 190 276 b 176 276 164 265 164 250 l 164 176 b 164 162 176 150 190 150
+Dialogue: 4,0:00:00.00,0:00:10.00,D,,0,0,0,,{\an7\pos(0,0)\p1\bord6\shad0\1c&H00D85B1E&\3c&H00D85B1E&}m 164 148 b 197 148 224 175 224 208 b 224 241 197 268 164 268 b 131 268 104 241 104 208 b 104 175 131 148 164 148
+Dialogue: 5,0:00:00.00,0:00:10.00,D,,0,0,0,,{\an7\pos(0,0)\p1\bord0\shad0\1c&H002D34E2&}m 164 148 b 197 148 224 175 224 208 b 224 241 197 268 164 268 b 131 268 104 241 104 208 b 104 175 131 148 164 148
+Dialogue: 4,0:00:00.00,0:00:10.00,D,,0,0,0,,{\an7\pos(0,0)\p1\bord3\shad0\1c&H00D85B1E&\3c&H00D85B1E&}m 103 186 l 74 196 l 78 185 l 61 179 l 66 164 l 83 170 l 87 159
+Dialogue: 5,0:00:00.00,0:00:10.00,D,,0,0,0,,{\an7\pos(0,0)\p1\bord0\shad0\1c&H001E93F7&}m 103 186 l 74 196 l 78 185 l 61 179 l 66 164 l 83 170 l 87 159
+Dialogue: 6,0:00:00.00,0:00:10.00,D,,0,0,0,,{\an7\pos(0,0)\p1\bord3\shad0\1c&H00101A7A&\3c&H00101A7A&}m 164 173 l 173 197 l 200 199 l 179 215 l 186 241 l 164 226 l 142 241 l 149 215 l 128 199 l 155 197
+Dialogue: 7,0:00:00.00,0:00:10.00,D,,0,0,0,,{\an7\pos(0,0)\p1\bord0\shad0\1c&H003FD2FF&}m 164 173 l 173 197 l 200 199 l 179 215 l 186 241 l 164 226 l 142 241 l 149 215 l 128 199 l 155 197
+Dialogue: 9,0:00:00.00,0:00:10.00,D,,0,0,0,,{\an4\q2\pos(252,195)\fnArchivo Black\fs41.8\1c&H111111&\bord0\shad0}Paul Wall's real name is
+Dialogue: 9,0:00:00.00,0:00:10.00,D,,0,0,0,,{\an4\q2\pos(252,232)\fnArchivo Black\fs41.8\1c&H111111&\bord0\shad0}Paul Michael Slayton.
+Dialogue: 0,0:00:00.00,0:00:10.00,D,,0,0,0,,{\an7\pos(8,8)\p1\bord7\shad0\1c&H00000000&\3c&H00000000&\1a&H88&\3a&H88&}m 1358 826 l 1824 826 b 1838 826 1850 838 1850 852 l 1850 964 b 1850 978 1838 990 1824 990 l 1358 990 b 1343 990 1332 978 1332 964 l 1332 852 b 1332 838 1343 826 1358 826
+Dialogue: 1,0:00:00.00,0:00:10.00,D,,0,0,0,,{\an7\pos(0,0)\p1\bord7\shad0\1c&H00D85B1E&\3c&H00D85B1E&}m 1358 826 l 1824 826 b 1838 826 1850 838 1850 852 l 1850 964 b 1850 978 1838 990 1824 990 l 1358 990 b 1343 990 1332 978 1332 964 l 1332 852 b 1332 838 1343 826 1358 826
+Dialogue: 2,0:00:00.00,0:00:10.00,D,,0,0,0,,{\an7\pos(0,0)\p1\bord0\shad0\1c&H00FFFFFF&}m 1358 826 l 1824 826 b 1838 826 1850 838 1850 852 l 1850 964 b 1850 978 1838 990 1824 990 l 1358 990 b 1343 990 1332 978 1332 964 l 1332 852 b 1332 838 1343 826 1358 826
+Dialogue: 4,0:00:00.00,0:00:10.00,D,,0,0,0,,{\an7\pos(0,0)\p1\bord6\shad0\1c&H00D85B1E&\3c&H00D85B1E&}m 1332 842 b 1365 842 1392 869 1392 902 b 1392 935 1365 962 1332 962 b 1298 962 1272 935 1272 902 b 1272 869 1298 842 1332 842
+Dialogue: 5,0:00:00.00,0:00:10.00,D,,0,0,0,,{\an7\pos(0,0)\p1\bord0\shad0\1c&H00FFFFFF&}m 1332 842 b 1365 842 1392 869 1392 902 b 1392 935 1365 962 1332 962 b 1298 962 1272 935 1272 902 b 1272 869 1298 842 1332 842
+Dialogue: 4,0:00:00.00,0:00:10.00,D,,0,0,0,,{\an7\pos(0,0)\p1\bord3\shad0\1c&H00D85B1E&\3c&H00D85B1E&}m 1270 879 l 1241 890 l 1245 879 l 1228 873 l 1234 858 l 1251 864 l 1255 852
+Dialogue: 5,0:00:00.00,0:00:10.00,D,,0,0,0,,{\an7\pos(0,0)\p1\bord0\shad0\1c&H001E93F7&}m 1270 879 l 1241 890 l 1245 879 l 1228 873 l 1234 858 l 1251 864 l 1255 852
+Dialogue: 6,0:00:00.00,0:00:10.00,D,,0,0,0,,{\an7\pos(0,0)\p1\bord3\shad0\1c&H001F4D0F&\3c&H001F4D0F&}m 1306 907 l 1321 907 l 1321 927 l 1306 927 m 1324 893 l 1339 893 l 1339 927 l 1324 927 m 1342 876 l 1357 876 l 1357 927 l 1342 927
+Dialogue: 7,0:00:00.00,0:00:10.00,D,,0,0,0,,{\an7\pos(0,0)\p1\bord0\shad0\1c&H004AAA2E&}m 1306 907 l 1321 907 l 1321 927 l 1306 927 m 1324 893 l 1339 893 l 1339 927 l 1324 927 m 1342 876 l 1357 876 l 1357 927 l 1342 927
+Dialogue: 8,0:00:00.00,0:00:10.00,D,,0,0,0,,{\an7\pos(0,0)\p1\bord0\shad0\1c&H001F4D0F&}m 1299 927 l 1364 927 l 1364 931 l 1299 931
+Dialogue: 9,0:00:00.00,0:00:10.00,D,,0,0,0,,{\an4\q2\pos(1420,871)\fnArchivo Black\fs41.8\1c&H111111&\bord0\shad0}The People's Champ
+Dialogue: 9,0:00:00.00,0:00:10.00,D,,0,0,0,,{\an4\q2\pos(1420,908)\fnArchivo Black\fs41.8\1c&H111111&\bord0\shad0}debuted at No. 1 on the
+Dialogue: 9,0:00:00.00,0:00:10.00,D,,0,0,0,,{\an4\q2\pos(1420,945)\fnArchivo Black\fs41.8\1c&H111111&\bord0\shad0}Billboard 200.

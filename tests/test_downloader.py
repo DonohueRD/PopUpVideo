@@ -80,3 +80,9 @@ def test_download_uses_cookies_file_when_present(tmp_path):
 def test_download_works_without_cookies_file(tmp_path):
     cmd = _run_download(tmp_path, tmp_path / "missing.txt")
     assert "--cookies" not in cmd
+
+
+def test_download_asks_for_a_client_that_still_serves_hd(tmp_path):
+    # with cookies, the default client is SABR-only (360p); web_safari still lists 1080p
+    cmd = _run_download(tmp_path, tmp_path / "missing.txt")
+    assert "youtube:player_client=web_safari,default" in cmd[cmd.index("--extractor-args") + 1]

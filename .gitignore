@@ -1,2 +1,5 @@
 .env
 cookies.txt
+
+# required by encoder.py (OFL-licensed Google Fonts)
+!fonts/*.ttf

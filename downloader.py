@@ -42,6 +42,8 @@ def download(url: str, tmp_dir: str) -> dict:
         "--output", f"{tmp_dir}/%(id)s.%(ext)s",
         "--print-json",
         "--no-playlist",
+        # the default client went SABR-only (360p max) once cookies were in use; web_safari still lists HD
+        "--extractor-args", "youtube:player_client=web_safari,default",
     ]
     if Path(COOKIES_FILE).is_file():
         cmd += ["--cookies", COOKIES_FILE]
@@ -50,7 +52,7 @@ def download(url: str, tmp_dir: str) -> dict:
         capture_output=True,
     )
     if result.returncode != 0:
-        raise RuntimeError(f"yt-dlp failed: {result.stderr.decode()[:500]}")
+        raise RuntimeError(f"yt-dlp failed: {result.stderr.decode()[-800:]}")
 
     info = json.loads(result.stdout)
     youtube_id = info["id"]

@@ -33,3 +33,15 @@ def test_output_path_does_not_overwrite():
         open(base, "w").close()
         p = resolve_output_path("X", "Y", d)
         assert p != base
+
+
+def test_scan_trigger_sends_json_body():
+    # Tunarr (Fastify) 400s an empty body sent as application/json
+    import json
+    from unittest.mock import patch, MagicMock
+    from popupvideo import trigger_tunarr_scan
+    resp = MagicMock(status=202)
+    resp.__enter__.return_value = resp
+    with patch("popupvideo.urllib.request.urlopen", return_value=resp) as op:
+        assert trigger_tunarr_scan() is True
+    json.loads(op.call_args[0][0].data)

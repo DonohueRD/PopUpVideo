@@ -45,7 +45,7 @@ def trigger_tunarr_scan() -> bool:
         req = urllib.request.Request(
             TUNARR_SCAN_URL,
             method="POST",
-            data=b"",
+            data=b"{}",
             headers={"Content-Type": "application/json"},
         )
         with urllib.request.urlopen(req, timeout=10) as resp:
